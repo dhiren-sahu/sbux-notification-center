@@ -11,6 +11,16 @@ npm start
 Now browse to the app at [`localhost:8000/index.html`][local-app-url].
 
 
+### To go to the Production Version of  the Application
+
+We have preconfigured the project with a simple  gulpjs. The simplest way to start
+this production mode is:
+
+```
+gulp
+```
+
+
 
 ## Testing
 
