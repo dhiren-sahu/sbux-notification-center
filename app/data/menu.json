@@ -1,0 +1,50 @@
+[
+    {"id": "Home", "path" :"home",  "icon": "fa fa-home", "text": "Home"},
+    {"id": "UserManagement", "path" :"UserManagement",  "icon": "fa fa-users", "text": "User Management",
+        "submenu": [
+            {"id": "RoleManagement", "path" :"role-management",  "icon": "fa fa-home", "text": "Role Management"},
+            {"id": "AccountManagement", "path" :"AccountManagement",  "icon": "fa fa-home", "text": "AccountManagement"}
+        ]
+    },
+    {"id": "ServiceConfiguration", "path" :"ServiceConfiguration",  "icon": "fa fa-laptop", "text": "ServiceConfiguration",
+        "submenu": [
+            {"id": "InternalApplication", "path" :"InternalApplication",  "icon": "fa fa-home", "text": "InternalApplication"},
+            {"id": "3rdGateway", "path" :"3rdGateway",  "icon": "fa fa-home", "text": "3rdGateway"},
+            {"id": "FilterConfiguration", "path" :"FilterConfiguration",  "icon": "fa fa-home", "text": "FilterConfiguration"}
+        ]
+    },
+    {"id": "TemplateManagement", "path" :"TemplateManagement",  "icon": "fa fa-object-group", "text": "TemplateManagement",
+        "submenu": [
+            {"id": "SMS", "path" :"SMS",  "icon": "fa fa-home", "text": "SMS"},
+            {"id": "Notification", "path" :"Notification",  "icon": "fa fa-home", "text": "Notification"},
+            {"id": "Wechat", "path" :"Wechat",  "icon": "fa fa-home", "text": "Wechat"},
+            {"id": "Email", "path" :"Email",  "icon": "fa fa-home", "text": "Email"},
+            {"id": "EDM", "path" :"EDM",  "icon": "fa fa-home", "text": "EDM"}
+        ]
+    },
+    {"id": "MessageClient", "path" :"MessageClient",  "icon": "fa fa-envelope", "text": "MessageClient",
+        "submenu": [
+            {"id": "SendSMS", "path" :"SendSMS",  "icon": "fa fa-home", "text": "SendSMS"},
+            {"id": "SendNotification", "path" :"SendNotification",  "icon": "fa fa-home", "text": "SendNotification"},
+            {"id": "SendWechat", "path" :"SendWechat",  "icon": "fa fa-home", "text": "SendWechat"},
+            {"id": "SendEmail", "path" :"SendEmail",  "icon": "fa fa-home", "text": "SendEmail"},
+            {"id": "SendEDM", "path" :"SendEDM",  "icon": "fa fa-home", "text": "SendEDM"}
+        ]
+    },
+    {"id": "Monitor", "path" :"Monitor",  "icon": "fa fa-home", "text": "Monitor"},
+    {"id": "Report", "path" :"Report",  "icon": "fa fa-envelope", "text": "Report",
+        "submenu": [
+            {"id": "Cost", "path" :"Cost",  "icon": "fa fa-home", "text": "Cost"},
+            {"id": "DataStatistics", "path" :"DataStatistics",  "icon": "fa fa-home", "text": "DataStatistics"},
+            {"id": "DetailQuery", "path" :"DetailQuery",  "icon": "fa fa-home", "text": "DetailQuery"},
+            {"id": "DimensionAnalysis", "path" :"DimensionAnalysis",  "icon": "fa fa-home", "text": "DimensionAnalysis"}
+        ]
+    },
+    {"id": "SystemConfiguration", "path" :"SystemConfiguration",  "icon": "fa fa-envelope", "text": "SystemConfiguration",
+        "submenu": [
+            {"id": "SystemParameters", "path" :"SystemParameters",  "icon": "fa fa-home", "text": "SystemParameters"},
+            {"id": "SystemWarning", "path" :"SystemWarning",  "icon": "fa fa-home", "text": "SystemWarning"},
+            {"id": "SystemLog", "path" :"SystemLog",  "icon": "fa fa-home", "text": "SystemLog"}
+        ]
+    }
+]
