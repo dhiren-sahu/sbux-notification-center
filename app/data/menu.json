@@ -1,9 +1,22 @@
 [
     {"id": "Home", "path" :"home",  "icon": "fa fa-home", "text": "Home"},
-    {"id": "UserManagement", "path" :"UserManagement",  "icon": "fa fa-users", "text": "User Management",
+    {"id": "RealTimeMessaage", "path" :"RealTimeMessaage",  "icon": "fa fa-envelope", "text": "Real Time Messagae",
         "submenu": [
-            {"id": "RoleManagement", "path" :"role-management",  "icon": "fa fa-home", "text": "Role Management"},
-            {"id": "AccountManagement", "path" :"AccountManagement",  "icon": "fa fa-home", "text": "AccountManagement"}
+            {"id": "SendSMS", "path" :"SendSMS",  "icon": "fa fa-home", "text": "SendSMS"},
+            {"id": "SendNotification", "path" :"SendNotification",  "icon": "fa fa-home", "text": "SendNotification"},
+            {"id": "SendWechat", "path" :"SendWechat",  "icon": "fa fa-home", "text": "SendWechat"},
+            {"id": "SendEmail", "path" :"SendEmail",  "icon": "fa fa-home", "text": "SendEmail"},
+            {"id": "SendEDM", "path" :"SendEDM",  "icon": "fa fa-home", "text": "SendEDM"}
+        ]
+    },
+    {"id": "Schedule", "path" :"Schedule",  "icon": "fa fa-home", "text": "Schedule"},
+    {"id": "Monitor", "path" :"Monitor",  "icon": "fa fa-home", "text": "Monitor"},
+    {"id": "Report", "path" :"Report",  "icon": "fa fa-envelope", "text": "Report",
+        "submenu": [
+            {"id": "Cost", "path" :"Cost",  "icon": "fa fa-home", "text": "Cost"},
+            {"id": "DataStatistics", "path" :"DataStatistics",  "icon": "fa fa-home", "text": "DataStatistics"},
+            {"id": "DetailQuery", "path" :"DetailQuery",  "icon": "fa fa-home", "text": "DetailQuery"},
+            {"id": "DimensionAnalysis", "path" :"DimensionAnalysis",  "icon": "fa fa-home", "text": "DimensionAnalysis"}
         ]
     },
     {"id": "ServiceConfiguration", "path" :"ServiceConfiguration",  "icon": "fa fa-laptop", "text": "ServiceConfiguration",
@@ -22,22 +35,10 @@
             {"id": "EDM", "path" :"EDM",  "icon": "fa fa-home", "text": "EDM"}
         ]
     },
-    {"id": "MessageClient", "path" :"MessageClient",  "icon": "fa fa-envelope", "text": "MessageClient",
+    {"id": "UserManagement", "path" :"UserManagement",  "icon": "fa fa-users", "text": "User Management",
         "submenu": [
-            {"id": "SendSMS", "path" :"SendSMS",  "icon": "fa fa-home", "text": "SendSMS"},
-            {"id": "SendNotification", "path" :"SendNotification",  "icon": "fa fa-home", "text": "SendNotification"},
-            {"id": "SendWechat", "path" :"SendWechat",  "icon": "fa fa-home", "text": "SendWechat"},
-            {"id": "SendEmail", "path" :"SendEmail",  "icon": "fa fa-home", "text": "SendEmail"},
-            {"id": "SendEDM", "path" :"SendEDM",  "icon": "fa fa-home", "text": "SendEDM"}
-        ]
-    },
-    {"id": "Monitor", "path" :"Monitor",  "icon": "fa fa-home", "text": "Monitor"},
-    {"id": "Report", "path" :"Report",  "icon": "fa fa-envelope", "text": "Report",
-        "submenu": [
-            {"id": "Cost", "path" :"Cost",  "icon": "fa fa-home", "text": "Cost"},
-            {"id": "DataStatistics", "path" :"DataStatistics",  "icon": "fa fa-home", "text": "DataStatistics"},
-            {"id": "DetailQuery", "path" :"DetailQuery",  "icon": "fa fa-home", "text": "DetailQuery"},
-            {"id": "DimensionAnalysis", "path" :"DimensionAnalysis",  "icon": "fa fa-home", "text": "DimensionAnalysis"}
+            {"id": "RoleManagement", "path" :"role-management",  "icon": "fa fa-home", "text": "Role Management"},
+            {"id": "AccountManagement", "path" :"AccountManagement",  "icon": "fa fa-home", "text": "AccountManagement"}
         ]
     },
     {"id": "SystemConfiguration", "path" :"SystemConfiguration",  "icon": "fa fa-envelope", "text": "SystemConfiguration",
