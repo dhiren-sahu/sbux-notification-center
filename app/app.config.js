@@ -41,7 +41,7 @@ config(['$locationProvider' ,'$routeProvider',
             template: '<report></report>'
         }).
         when('/cost', {
-            template: '<role-management></role-management>'
+            template: '<cost></cost>'
         }).
         when('/data-statistics', {
             template: '<data-statistics></data-statistics>'
