@@ -32,7 +32,7 @@
 	<ul class="sidebar-menu" ng-repeat="menu in $ctrl.sideMenu">
 		<li ng-if="!menu.submenu"><a href="#!/{{menu.path}}"><i class="{{menu.icon}}"></i> <span>{{menu.text}}</span></a></li>
 		<li class="treeview" ng-if="menu.submenu">
-			<a href="#"><i class="{{menu.icon}}"></i> <span>{{menu.text}}</span> <i class="fa fa-angle-left pull-right"></i></a>
+			<a ><i class="{{menu.icon}}"></i> <span>{{menu.text}}</span> <i class="fa fa-angle-left pull-right"></i></a>
 			<ul class="treeview-menu" ng-repeat="submenu in menu.submenu">
 				<li><a href="#!/{{submenu.path}}">{{submenu.text}}</a></li>
 			</ul>
