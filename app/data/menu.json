@@ -1,51 +1,51 @@
 [
     {"id": "Home", "path" :"home",  "icon": "fa fa-home", "text": "Home"},
-    {"id": "RealTimeMessaage", "path" :"RealTimeMessaage",  "icon": "fa fa-envelope", "text": "Real Time Messagae",
+    {"id": "RealTimeMessaage", "path" :"real-time-messaage",  "icon": "fa fa-envelope", "text": "Real Time Messagae",
         "submenu": [
-            {"id": "SendSMS", "path" :"SendSMS",  "icon": "fa fa-home", "text": "SendSMS"},
-            {"id": "SendNotification", "path" :"SendNotification",  "icon": "fa fa-home", "text": "SendNotification"},
-            {"id": "SendWechat", "path" :"SendWechat",  "icon": "fa fa-home", "text": "SendWechat"},
-            {"id": "SendEmail", "path" :"SendEmail",  "icon": "fa fa-home", "text": "SendEmail"},
-            {"id": "SendEDM", "path" :"SendEDM",  "icon": "fa fa-home", "text": "SendEDM"}
+            {"id": "SendSMS", "path" :"send-sms",  "icon": "fa fa-home", "text": "SendSMS"},
+            {"id": "SendNotification", "path" :"send-notification",  "icon": "fa fa-home", "text": "SendNotification"},
+            {"id": "SendWechat", "path" :"send-wechat",  "icon": "fa fa-home", "text": "SendWechat"},
+            {"id": "SendEmail", "path" :"send-email",  "icon": "fa fa-home", "text": "SendEmail"},
+            {"id": "SendEDM", "path" :"send-edm",  "icon": "fa fa-home", "text": "SendEDM"}
         ]
     },
-    {"id": "Schedule", "path" :"Schedule",  "icon": "fa fa-home", "text": "Schedule"},
-    {"id": "Monitor", "path" :"Monitor",  "icon": "fa fa-home", "text": "Monitor"},
-    {"id": "Report", "path" :"Report",  "icon": "fa fa-envelope", "text": "Report",
+    {"id": "Schedule", "path" :"schedule",  "icon": "fa fa-home", "text": "Schedule"},
+    {"id": "Monitor", "path" :"monitor",  "icon": "fa fa-home", "text": "Monitor"},
+    {"id": "Report", "path" :"report",  "icon": "fa fa-envelope", "text": "Report",
         "submenu": [
-            {"id": "Cost", "path" :"Cost",  "icon": "fa fa-home", "text": "Cost"},
-            {"id": "DataStatistics", "path" :"DataStatistics",  "icon": "fa fa-home", "text": "DataStatistics"},
-            {"id": "DetailQuery", "path" :"DetailQuery",  "icon": "fa fa-home", "text": "DetailQuery"},
-            {"id": "DimensionAnalysis", "path" :"DimensionAnalysis",  "icon": "fa fa-home", "text": "DimensionAnalysis"}
+            {"id": "Cost", "path" :"cost",  "icon": "fa fa-home", "text": "Cost"},
+            {"id": "DataStatistics", "path" :"data-statistics",  "icon": "fa fa-home", "text": "DataStatistics"},
+            {"id": "DetailQuery", "path" :"detail-query",  "icon": "fa fa-home", "text": "DetailQuery"},
+            {"id": "DimensionAnalysis", "path" :"dimension-analysis",  "icon": "fa fa-home", "text": "DimensionAnalysis"}
         ]
     },
     {"id": "ServiceConfiguration", "path" :"ServiceConfiguration",  "icon": "fa fa-laptop", "text": "ServiceConfiguration",
         "submenu": [
-            {"id": "InternalApplication", "path" :"InternalApplication",  "icon": "fa fa-home", "text": "InternalApplication"},
-            {"id": "3rdGateway", "path" :"3rdGateway",  "icon": "fa fa-home", "text": "3rdGateway"},
-            {"id": "FilterConfiguration", "path" :"FilterConfiguration",  "icon": "fa fa-home", "text": "FilterConfiguration"}
+            {"id": "InternalApplication", "path" :"internal-application",  "icon": "fa fa-home", "text": "InternalApplication"},
+            {"id": "3rdGateway", "path" :"3rd-gateway",  "icon": "fa fa-home", "text": "3rdGateway"},
+            {"id": "FilterConfiguration", "path" :"filter-configuration",  "icon": "fa fa-home", "text": "FilterConfiguration"}
         ]
     },
-    {"id": "TemplateManagement", "path" :"TemplateManagement",  "icon": "fa fa-object-group", "text": "TemplateManagement",
+    {"id": "TemplateManagement", "path" :"template-management",  "icon": "fa fa-object-group", "text": "TemplateManagement",
         "submenu": [
-            {"id": "SMS", "path" :"SMS",  "icon": "fa fa-home", "text": "SMS"},
-            {"id": "Notification", "path" :"Notification",  "icon": "fa fa-home", "text": "Notification"},
-            {"id": "Wechat", "path" :"Wechat",  "icon": "fa fa-home", "text": "Wechat"},
-            {"id": "Email", "path" :"Email",  "icon": "fa fa-home", "text": "Email"},
-            {"id": "EDM", "path" :"EDM",  "icon": "fa fa-home", "text": "EDM"}
+            {"id": "SMS", "path" :"sms",  "icon": "fa fa-home", "text": "SMS"},
+            {"id": "Notification", "path" :"notification",  "icon": "fa fa-home", "text": "Notification"},
+            {"id": "Wechat", "path" :"wechat",  "icon": "fa fa-home", "text": "Wechat"},
+            {"id": "Email", "path" :"email",  "icon": "fa fa-home", "text": "Email"},
+            {"id": "EDM", "path" :"edm",  "icon": "fa fa-home", "text": "EDM"}
         ]
     },
-    {"id": "UserManagement", "path" :"UserManagement",  "icon": "fa fa-users", "text": "User Management",
+    {"id": "UserManagement", "path" :"user-management",  "icon": "fa fa-users", "text": "User Management",
         "submenu": [
             {"id": "RoleManagement", "path" :"role-management",  "icon": "fa fa-home", "text": "Role Management"},
-            {"id": "AccountManagement", "path" :"AccountManagement",  "icon": "fa fa-home", "text": "AccountManagement"}
+            {"id": "AccountManagement", "path" :"account-management",  "icon": "fa fa-home", "text": "AccountManagement"}
         ]
     },
-    {"id": "SystemConfiguration", "path" :"SystemConfiguration",  "icon": "fa fa-envelope", "text": "SystemConfiguration",
+    {"id": "SystemConfiguration", "path" :"system-configuration",  "icon": "fa fa-envelope", "text": "SystemConfiguration",
         "submenu": [
-            {"id": "SystemParameters", "path" :"SystemParameters",  "icon": "fa fa-home", "text": "SystemParameters"},
-            {"id": "SystemWarning", "path" :"SystemWarning",  "icon": "fa fa-home", "text": "SystemWarning"},
-            {"id": "SystemLog", "path" :"SystemLog",  "icon": "fa fa-home", "text": "SystemLog"}
+            {"id": "SystemParameters", "path" :"system-parameters",  "icon": "fa fa-home", "text": "SystemParameters"},
+            {"id": "SystemWarning", "path" :"system-warning",  "icon": "fa fa-home", "text": "SystemWarning"},
+            {"id": "SystemLog", "path" :"system-log",  "icon": "fa fa-home", "text": "SystemLog"}
         ]
     }
 ]
