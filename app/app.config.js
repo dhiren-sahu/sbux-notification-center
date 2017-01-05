@@ -55,8 +55,8 @@ config(['$locationProvider' ,'$routeProvider',
         when('/internal-application', {
             template: '<internal-application></internal-application>'
         }).
-        when('/3rd-gateway', {
-            template: '<3rd-gateway></3rd-gateway>'
+        when('/third-gateway', {
+            template: '<third-gateway></third-gateway>'
         }).
         when('/filter-configuration', {
             template: '<filter-configuration></filter-configuration>'

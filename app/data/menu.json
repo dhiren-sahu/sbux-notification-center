@@ -22,7 +22,7 @@
     {"id": "ServiceConfiguration", "path" :"ServiceConfiguration",  "icon": "fa fa-laptop", "text": "ServiceConfiguration",
         "submenu": [
             {"id": "InternalApplication", "path" :"internal-application",  "icon": "fa fa-home", "text": "InternalApplication"},
-            {"id": "3rdGateway", "path" :"3rd-gateway",  "icon": "fa fa-home", "text": "3rdGateway"},
+            {"id": "3rdGateway", "path" :"third-gateway",  "icon": "fa fa-home", "text": "3rdGateway"},
             {"id": "FilterConfiguration", "path" :"filter-configuration",  "icon": "fa fa-home", "text": "FilterConfiguration"}
         ]
     },
